@@ -64,25 +64,25 @@ Payment & Shipping: Credit card and Mobile Payments are the dominant transaction
 How to Run This Project
 
 Prerequisites
-Python 3.8+ (Pandas, NumPy, Matplotlib, Seaborn, MySQL Connector)
-MySQL Server & MySQL Workbench
-Power BI Desktop
+•	Python 3.8+ (Pandas, NumPy, Matplotlib, Seaborn, MySQL Connector)
+•	MySQL Server & MySQL Workbench
+•	Power BI Desktop
+
 
 Installation & Setup
 
 1. Clone the Repository:
- bash
-   git clone https://github.com/Priyankaewp/customer-behavior-analysis.git
-   cd customer-behavior-analysis
+bash
+   git clone https://github.com/Priyankaewp/Customer-Shopping-Analysis.git
+   cd Customer-Shopping-Analysis
 
-https://github.com/Priyankaewp/Customer-Shopping-Analysis
 
 
 2. Run Python Scripts (EDA & Cleaning):
  bash
 
-   pip install -r requirements.txt
-   python scripts/ DA Project Customer_Shopping_Behavior.py
+pip install -r requirements.txt
+python scripts/da_project_customer_shopping_behavior.py
 
    *Output:* Generates `customer_shopping_behavior.csv` in the `data/` folder.
 
