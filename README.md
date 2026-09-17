@@ -71,31 +71,32 @@ Power BI Desktop
 Installation & Setup
 
 1. Clone the Repository:
-   ```bash
+ bash
    git clone https://github.com/Priyankaewp/customer-behavior-analysis.git
    cd customer-behavior-analysis
 
 https://github.com/Priyankaewp/Customer-Shopping-Analysis
-   ```
+
 
 2. Run Python Scripts (EDA & Cleaning):
-   ```bash
+ bash
+
    pip install -r requirements.txt
    python scripts/ DA Project Customer_Shopping_Behavior.py
-   ```
+
    *Output:* Generates `customer_shopping_behavior.csv` in the `data/` folder.
 
-3. Set Up MySQL Database:
+4. Set Up MySQL Database:
    * Open MySQL Workbench and execute ` Proj_Customer_Behavior.sql ` to build tables.
    * Load ` customer_shopping_behavior.csv` into the database.
    * Execute `sql/ Proj_Customer_Behavior.sql ` to generate analytical views.
 
-4. Open Power BI Dashboard:
+5. Open Power BI Dashboard:
    * Launch Power BI Desktop and open `dashboards/ DA Project Customer_Shopping_Behavior_Dashboard.pbix`.
    * Update data source file path or database credentials if prompted to refresh visuals.
 
 Repository Structure
-```
+
 ├── data/
 │   ├── customer_shopping_behavior_raw.csv
 │   └── customer_shopping_behavior.csv
